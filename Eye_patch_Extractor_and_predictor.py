@@ -17,14 +17,14 @@ img = []
 
 nav_choice = st.sidebar.radio('Navigation', ('Home', 'Sleep Detection', 'Help Us Improve'), index=0)
 if nav_choice == 'Home':
-    st.header('Prevents sleep deprivation road accidents, by alerting drowsy drivers.')
+    st.subheader('Prevents sleep deprivation road accidents, by alerting drowsy drivers.')
     st.image('ISHN0619_C3_pic.jpg')
     st.markdown('<b>In accordance with the survey taken by the Times Of India, about 40 % of road </b>'
                 '<b>accidents are caused</b> '
                 '<b>due to sleep deprivation & fatigued drivers. In order to address this issue, this app will </b>'
                 '<b>alert such drivers with the help of deep learning models and computer vision.</b>'
                 '', unsafe_allow_html=True)
-    st.image('sleep.jfif', width=280)
+    st.image('sleep.jfif', width=300)
     st.markdown('<h1>How to use?<br></h1>'
                 '<b>1. Go to Sleep Detection page from the Navigation Side-Bar.</b><br>'
                 '<b>2. Make sure that, you have sufficient amount of light, in your room.</b><br>'
