@@ -1,9 +1,9 @@
 # Drowsiness-Detection-Web-app
 Prevents sleep deprivation road accidents, by alerting drowsy drivers.
-In this project, we have trained a convlutional neural network, to determine whether the eyes are closed or not, further, eye-ptches are extracted from the face image to make all predictions. The dataset used for training process can be accessed from <a href="https://www.kaggle.com/kutaykutlu/drowsiness-detection" target="_blank">here.</a>
+In this project, we have trained a convolutional neural network, to determine whether the eyes are closed or not, further, eye-patches are extracted from the face image to make all predictions. The dataset used for the training process can be accessed from <a href="https://www.kaggle.com/kutaykutlu/drowsiness-detection" target="_blank">here.</a>
 
 ## Understanding The Problem Statement
-  According to the survey done by 'The Times of Inidia', nearly 40% of the road accidents are caused by the sleep deprivation. Fatigued drivers, long-duty driving are the major causes for the same. To solve this issue, this app primarily aims to predict whether or not the driver is sleeping, if found sleeping, it alerts the driver by making a high frequency sound. This project is to avoid such sleep deprivation accidents!
+  According to the survey done by 'The Times of Inidia', nearly 40% of road accidents are caused by sleep deprivation. Fatigued drivers, long-duty driving are the major causes for the same. To solve this issue, this app primarily aims to predict whether or not the driver is sleeping, if found sleeping, it alerts the driver by making a high-frequency sound. This project is to avoid such sleep deprivation accidents!
   
   ## Implementation
 1. A Deep Learning Model will be trained to detect whether the driver's eyelids are open or not. This will be achieved by training a Convolutional Neural Network using Tensorflow.<br>
@@ -12,7 +12,7 @@ In this project, we have trained a convlutional neural network, to determine whe
 4. Using this prediction, if the driver's eyes are closed a beep sound will be played, to alert the driver.<br>
 
 ## Drowsiness Detetction Model Insights
-This model is trained with the help of tensorflow and is based upon convolutional neural networks. It takes RGB images with the dimensions (86 * 86 * 3).
+This model is trained with the help of TensorFlow and is based upon convolutional neural networks. It takes RGB images with the dimensions (86 * 86 * 3).
 ### Model Architecure
 <table>
   <th>Layer Number</th><th>Layer Type</th><th>Output Shape</th><th>Trainable Parameters</th><th>Activation Funtion</th>
@@ -28,4 +28,4 @@ This model is trained with the help of tensorflow and is based upon convolutiona
 </table>
 
 ## Eye_patch_Extractor_and_predictor Insights
-This model uses OpenCV's "Haar Cascade Classifier" for face detection and after the proposal of region of interest it extracts the eye-patch by the "Centroid Method" developed by us. This extracted features will be then passed to trained model for Drowsiness Detection.
+  This model uses OpenCV's "Haar Cascade Classifier" for face detection and after the proposal of the region of interest, it extracts the eye patch by the "Centroid Method" developed by us. These extracted features will be then passed to the trained model for Drowsiness Detection.
