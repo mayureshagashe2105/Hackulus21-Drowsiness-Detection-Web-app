@@ -24,7 +24,7 @@ if nav_choice == 'Home':
                 '<b>due to sleep deprivation & fatigued drivers. In order to address this issue, this app will </b>'
                 '<b>alert such drivers with the help of deep learning models and computer vision.</b>'
                 '', unsafe_allow_html=True)
-    st.image('sleep.jfif', width=300)
+    st.image('sleep.jfif', width=280)
     st.markdown('<h1>How to use?<br></h1>'
                 '<b>1. Go to Sleep Detection page from the Navigation Side-Bar.</b><br>'
                 '<b>2. Make sure that, you have sufficient amount of light, in your room.</b><br>'
