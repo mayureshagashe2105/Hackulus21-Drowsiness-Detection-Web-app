@@ -13,7 +13,7 @@ In this project, we have trained a convolutional neural network, to determine wh
 
 ## Drowsiness Detetction Model Insights
 This model is trained with the help of TensorFlow and is based upon convolutional neural networks. It takes RGB images with the dimensions (86 * 86 * 3).
-### Model Architecure
+### Model Architecture
 <table>
   <th>Layer Number</th><th>Layer Type</th><th>Output Shape</th><th>Trainable Parameters</th><th>Activation Funtion</th>
   <tr><td>1</td><td>CONV2D</td><td>(None, 84, 84, 75)</td><td>2,100</td><td>Relu</td></tr>
