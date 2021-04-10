@@ -1,0 +1,8 @@
+numpy
+streamlit
+pandas
+pygame
+streamlit-webcam-example
+opencv-python-headless
+tensorflow_gpu
+tensorflow
